@@ -52,7 +52,7 @@ library(GGally)
 ggpairs(world[3:7])
 ```
 
-Scatterplots for each pair of variables are drawn on the left of the diagonal. The values of the *Pearson correlation coefficient*, a specific method how to calculate correlations, are shown on the right of the diagonal. The number of **asterisks** (\*) marks the statisical significance of correlations and can be interpreted as a measure of certainty (not strength). The diagonal shows the univariate distribution of each variable. 
+Scatterplots for each pair of variables are drawn on the left of the diagonal. The values of the *Pearson correlation coefficient*, a specific method how to calculate correlations, are shown on the right of the diagonal. The number of **asterisks** (\*) marks the statistical significance of correlations and can be interpreted as a measure of certainty (not strength). The diagonal shows the univariate distribution of each variable. 
 
 Now, we can much quicker check the pairwise correlations, both visually and through the correlation coefficients. For instance, we observe a strong positive correlation (usually, > 0.75) between `income` and `health_expenditure` and an almost as strong, but negative correlation between `life_expectancy` and `babies_per_woman`. The scatterplots show in both cases potentially interesting outliers. Unfortunately, the visualization is not interactive and does not allow to directly identify the respective countries, but we can use other means to do this (for instance, sorting the tabular output).
 
